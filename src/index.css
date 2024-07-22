@@ -1,0 +1,112 @@
+@import url('https://fonts.googleapis.com/css2?family=Red+Hat+Display:ital,wght@0,300..900;1,300..900&display=swap');
+
+/* base styles */
+
+*{
+  margin: 0px ;
+  font-family: Red Hat Display;
+  color: #343434;
+}
+
+.navbar{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: aqua;
+  padding: 20px;
+  color: white;
+}
+
+.navbar h1 {
+  color: #141213;
+}
+
+.navbar .links {
+  margin-left: auto;
+}
+
+.navbar a {
+  margin-left: 16px;
+  text-decoration: none;
+  padding: 6px;
+}
+
+.navbar a:hover {
+  color: #f1356d;
+}
+
+.navbar ul li{
+    list-style-type: none;
+    padding: 0;
+}
+
+.navbar nav ul li {
+  display: inline;
+  margin: 0 10px;
+}
+
+.navbar nav ul li a {
+  color: white;
+  text-decoration: none;
+}
+
+.content {
+  max-width: 600px;
+  margin: 40px auto;
+  padding: 20px;
+}
+
+.main{
+  padding: 20px;
+}
+
+.product-list {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+
+.footer{
+  background-color: #282c34;
+  color: #e6c8c8;
+  padding: 10px 0;
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  text-align: center;
+}
+
+.product-card {
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  padding: 10px;
+  width: 200px;
+  text-align: left;
+}
+
+.product-card img {
+  width: 100%;
+  height: auto;
+}
+
+.product-card h2 {
+  font-size: 1.2em;
+  margin: 0.5em 0;
+}
+
+.product-card p {
+  margin: 0.5em 0;
+}
+
+.search-bar {
+  margin: 20px 0;
+  text-align: center;
+}
+
+.search-bar input {
+  width: 300px;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
